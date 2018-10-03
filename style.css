@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("BG 7to10.png");
+    background-size: 100% 100%;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+#logo {
+    width: 5em;
+    border-radius: 180px;
+    padding: 20px;
+}
+
+#presentation {
+    border: 0;
+    width: 80%;
+    padding: 0 0 20px 
