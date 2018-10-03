@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("BG 7to10.png");
-    background-size: 100% 100%;
+    background-size: 100% 200%;
 }
 
 .center {
@@ -18,5 +18,14 @@ body {
 
 #presentation {
     border: 0;
-    width: 80%;
-    padding: 0 0 20px 
+    width: 50em;
+    height: 30em;
+    padding: 0 0 20px;
+}
+
+@media screen and (max-width: 992px) {
+    #presentation {
+        width: 25em;
+        height: 15em;
+    }
+}
